@@ -1,0 +1,12 @@
+Darek,Jacobi,2,false,Claudius
+Ravil,Isyanov,3,false,Cornelius
+Brian,Blessed,2,false,Ghost
+Billy,Crystal,9,false,First Gravedigger
+Kenneth,Branagh,1,true,Hamlet
+Judi,Dench,1,true,Hecuba
+Nicholas,Farrell,7,false,Horatio
+Kate,Winslet,1,true,Ophelia
+Robin,Williams,7,true,Osric
+Richard,Briers,3,false,Polonius
+Gerard,Depardieu,1,false,Reynaldo
+Ken,Dodd,1,false,Yorick
