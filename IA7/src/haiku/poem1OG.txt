@@ -1,0 +1,3 @@
+Tried using C++
+Think I got it down quite well
+ERROR_CRIT: Seg Fault

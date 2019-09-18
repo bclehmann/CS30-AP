@@ -18,6 +18,8 @@ public class IA7_Haiku {
 			System.out.println(curr);
 		}
 		
+		
+		//I used insertion sort here
 		String[] sortedHaiku=originalHaiku;
 		for(int i=0; i<sortedHaiku.length; i++) {
 			for(int j=0; j<sortedHaiku.length; j++) {
