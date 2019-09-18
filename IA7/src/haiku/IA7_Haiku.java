@@ -3,9 +3,10 @@ package haiku;
 import java.util.Scanner;
 
 public class IA7_Haiku {
-	public static final String haikuFileDir="../CS30-AP/src/haiku/";
+	public static final String haikuFileDir="src/haiku/";
 
 	public static void main(String[] args) {
+		System.out.println(System.getProperty("user.dir"));
 		Scanner wordscan = new Scanner(System.in);
 		
 		System.out.println("Which poem would you like?");
@@ -71,7 +72,7 @@ public class IA7_Haiku {
 			}
 			
 		}
-		
+		wordscan.close();
 	}
 	
 	public static boolean shouldSwap(String a, String b) {
