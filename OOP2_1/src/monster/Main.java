@@ -94,10 +94,10 @@ public class Main {
 			monsterList.remove(0);// Always remove first element
 		}
 
-		for (Monster curr : monsterList) {
-			System.out.printf("A %s with %d strength, %dhp and who is %s%n", curr.getType(), curr.getStrength(),
-					curr.getHealth(), curr.getDescription());
-		}
+//		for (Monster curr : monsterList) {
+//			System.out.printf("A %s with %d strength, %dhp and who is %s%n", curr.getType(), curr.getStrength(),
+//					curr.getHealth(), curr.getDescription());
+//		}
 
 	}
 }
