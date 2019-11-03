@@ -46,6 +46,10 @@ public class Main {
 			}
 			System.out.printf("A %s approaches with %d strength, %dhp and who is %s%n", curr.getType(),
 					curr.getStrength(), curr.getHealth(), curr.getDescription());
+			
+			System.out.println("He carries the following items:");
+			curr.printInventory();
+			System.out.println();
 
 			while (curr.getHealth() > 0 && goodguy.getHealth() > 0) {
 				int dmg = goodguy.attacking();
