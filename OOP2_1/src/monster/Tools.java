@@ -17,7 +17,7 @@ public class Tools {
 
 	// Set up instance methods if useful
 	public String getDescription() {
-		return String.format("A %s dealing %d damage", name, damage);
+		return String.format("A %s dealing %d damage%s%s", name, damage, consumable ? " (1 use)" : "", selfActing ? " (Self Acting)" : "");
 	}
 
 

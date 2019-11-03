@@ -7,7 +7,7 @@ public class HealthKit extends Tools{
 	}
 	
 	public String getDescription() {
-		return String.format("A %s", name);
+		return String.format("A %s (1 use) (Self Acting)", name);
 	}
 
 }
